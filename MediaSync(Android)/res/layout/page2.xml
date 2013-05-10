@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="visible" />
+
+ <LinearLayout
+        android:id="@+id/logged_in_display" 
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        >
+        
+     
+     <TextView
+         android:id="@+id/textView2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text=" Download from list"
+         android:textAppearance="?android:attr/textAppearanceMedium"
+         android:textColor="#0000ff" />
+     
+     <ProgressBar
+         android:id="@+id/progressBar1"
+         style="?android:attr/progressBarStyleHorizontal"
+         android:layout_width="match_parent"
+         android:layout_height="5dp"
+         />
+     
+     <Spinner
+         android:id="@+id/spinner1"
+         android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:textColor="#ffffff" />
+     
+     
+     <ProgressBar
+         android:id="@+id/progressBar2"
+         style="?android:attr/progressBarStyleHorizontal"
+         android:layout_width="match_parent"
+         android:layout_height="5dp"
+          />
+     
+		<ImageView
+		    android:id="@+id/image_view"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:layout_weight="1"
+		    android:scaleType="fitCenter" />
+		
+		   <LinearLayout
+		       android:layout_width="fill_parent"
+		       android:layout_height="wrap_content"
+		       android:background="@android:drawable/screen_background_light"
+		       android:gravity="center"
+		       android:orientation="horizontal" >
+
+		       <ImageButton
+		           android:id="@+id/prev"
+		           android:layout_width="wrap_content"
+		           android:layout_height="wrap_content"
+		           android:layout_weight="1.12"
+		           android:src="@android:drawable/ic_media_previous" />
+
+		       <ImageButton
+		           android:id="@+id/next"
+		           android:layout_width="wrap_content"
+		           android:layout_height="wrap_content"
+		           android:layout_weight="1.11"
+		           android:src="@android:drawable/ic_media_next" />
+		   </LinearLayout>
+		
+		<LinearLayout
+		    android:orientation="horizontal"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    >
+		    <Button 
+		      android:id="@+id/getphoto_button" 
+		      android:text="Get Photo" 
+		      android:layout_width="fill_parent"
+		      android:layout_height="wrap_content"
+	          android:layout_weight="1"
+		      />
+		    <Button 
+		      android:id="@+id/cameraphoto_button" 
+		      android:text="Camera" 
+		      android:layout_width="fill_parent"
+		      android:layout_height="wrap_content"
+	          android:layout_weight="1"
+		      />
+
+		    <Button
+		        android:id="@+id/upphoto_button"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Upload Photo" />
+		    
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

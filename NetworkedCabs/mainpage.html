@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+	  <meta charset="utf-8">
+	  <title>Networked Cabs V1.0</title>
+	  <link href="style.css" rel="stylesheet">
+	  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	  <script type="text/javascript" src="util.js"></script>
+	</head> 
+	<body>
+	  <div class="title"><b><p id="test">Networked Cabs<p></b></div>
+	  <ul><li class="googlemap"><div id="map" style="width: inherit; height: inherit;"></div></li></ul>
+	  <script type="text/javascript">
+		var image = 'cab.png';
+		$(document).ready(function(){
+			var i;
+			i=0;
+			var locations= new Array();
+    
+			var location=new Array();
+			$.ajax({
+				type: "POST",
+				url: "getCabs.php",
+				dataType: "xml",
+				success: function(xml){
+					i=0;
+					$(xml).find('cab').each(function(){
+						locations[i]=[$(this).find('cabid').text(),$(this).find('latitude').text(),$(this).find('longitude').text()];
+						i++;
+					});
+					var map = new google.maps.Map(document.getElementById('map'), {
+						zoom: 13,
+						scrollwheel: true,
+						zoomControl: true,
+						panControl: false,
+						scaleControl: false,
+						streetViewControl: false,
+						center: new google.maps.LatLng(51.5, -0.11),
+						mapTypeId: google.maps.MapTypeId.ROADMAP
+					});
+    
+    
+					var infowindow = new google.maps.InfoWindow();
+
+					var marker;
+
+					for (i = 0; i < locations.length; i++) {  
+						marker = new google.maps.Marker({
+							position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+							map: map,
+							icon: image
+						});
+      
+						google.maps.event.addListener(marker, 'click', (function(marker, i) {
+							return function() {
+								infowindow.setContent("<a style='color:green;'>&bull;</a><h3 style='color:#722121'>"+locations[i][0]+"</h3>");
+								infowindow.open(map, marker);
+							}
+						})(marker, i));
+					}
+
+				}
+			});
+		});
+	  </script>	
+	</body>
+</html>

@@ -1,0 +1,270 @@
+<class-diagram version="1.0.11" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" corner="BOTTOM_RIGHT" language="java" name="com.example.mediasync3.DownloadMusic" project="MediaSync3" 
+    file="/MediaSync3/src/com/example/mediasync3/DownloadMusic.java" binary="false">    
+    <position height="-1" width="-1" x="1187" y="-177"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="2" corner="BOTTOM_RIGHT" language="java" name="com.example.mediasync3.DownloadNote" project="MediaSync3" 
+    file="/MediaSync3/src/com/example/mediasync3/DownloadNote.java" binary="false">    
+    <position height="-1" width="-1" x="1187" y="8"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="3" corner="BOTTOM_RIGHT" language="java" name="com.example.mediasync3.DownloadPhoto" project="MediaSync3" 
+    file="/MediaSync3/src/com/example/mediasync3/DownloadPhoto.java" binary="false">    
+    <position height="-1" width="-1" x="1182" y="-361"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="4" corner="BOTTOM_RIGHT" language="java" name="com.example.mediasync3.ListenerList" project="MediaSync3" 
+    file="/MediaSync3/src/com/example/mediasync3/FileDialog.java" binary="false">    
+    <position height="-1" width="-1" x="273" y="606"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="5" corner="BOTTOM_RIGHT" language="java" name="com.example.mediasync3.FileDialog.FileSelectedListener" 
+    project="MediaSync3" file="/MediaSync3/src/com/example/mediasync3/FileDialog.java" binary="false">    
+    <position height="-1" width="-1" x="483" y="634"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class id="6" corner="BOTTOM_RIGHT" language="java" name="com.example.mediasync3.FileDialog" project="MediaSync3" 
+    file="/MediaSync3/src/com/example/mediasync3/FileDialog.java" binary="false">    
+    <position height="-1" width="-1" x="615" y="312"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="7" corner="BOTTOM_RIGHT" language="java" name="com.example.mediasync3.ListenerList.FireHandler" 
+    project="MediaSync3" file="/MediaSync3/src/com/example/mediasync3/FileDialog.java" binary="false">    
+    <position height="-1" width="-1" x="247" y="767"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <interface id="8" corner="BOTTOM_RIGHT" language="java" 
+    name="com.example.mediasync3.FileDialog.DirectorySelectedListener" project="MediaSync3" 
+    file="/MediaSync3/src/com/example/mediasync3/FileDialog.java" binary="false">    
+    <position height="-1" width="-1" x="672" y="635"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class id="9" corner="BOTTOM_RIGHT" language="java" name="com.example.mediasync3.ImageUtils" project="MediaSync3" 
+    file="/MediaSync3/src/com/example/mediasync3/ImageUtils.java" binary="false">    
+    <position height="-1" width="-1" x="-413" y="-715"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="10" corner="BOTTOM_RIGHT" language="java" name="com.example.mediasync3.MediaActivity" project="MediaSync3" 
+    file="/MediaSync3/src/com/example/mediasync3/MediaActivity.java" binary="false">    
+    <position height="-1" width="-1" x="596" y="-285"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="11" corner="BOTTOM_RIGHT" language="java" name="com.example.mediasync3.MediaFragmentPagerAdapter" 
+    project="MediaSync3" file="/MediaSync3/src/com/example/mediasync3/MediaFragmentPagerAdapter.java" binary="false">    
+    <position height="-1" width="-1" x="585" y="-708"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="12" corner="BOTTOM_RIGHT" language="java" name="com.example.mediasync3.MediaMusic" project="MediaSync3" 
+    file="/MediaSync3/src/com/example/mediasync3/MediaMusic.java" binary="false">    
+    <position height="-1" width="-1" x="-7" y="-122"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="13" corner="BOTTOM_RIGHT" language="java" name="com.example.mediasync3.MediaNote" project="MediaSync3" 
+    file="/MediaSync3/src/com/example/mediasync3/MediaNote.java" binary="false">    
+    <position height="-1" width="-1" x="-6" y="-393"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="14" corner="BOTTOM_RIGHT" language="java" name="com.example.mediasync3.MediaPhoto" project="MediaSync3" 
+    file="/MediaSync3/src/com/example/mediasync3/MediaPhoto.java" binary="false">    
+    <position height="-1" width="-1" x="-6" y="-670"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="15" corner="BOTTOM_RIGHT" language="java" name="com.example.mediasync3.Upload" project="MediaSync3" 
+    file="/MediaSync3/src/com/example/mediasync3/Upload.java" binary="false">    
+    <position height="-1" width="-1" x="-387" y="-329"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <association id="16">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="17" name="pagerAdapter"/>      
+      <multiplicity id="18" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="19">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="20" name="fileListenerList"/>      
+      <multiplicity id="21" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="22">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="23" name="dirListenerList"/>      
+      <multiplicity id="24" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="25">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="26" name="fileDialog"/>      
+      <multiplicity id="27" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="28">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="29" name="mActivity"/>      
+      <multiplicity id="30" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="31">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="32" name="fileDialog"/>      
+      <multiplicity id="33" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="34">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="35" name="fragment2"/>      
+      <multiplicity id="36" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="37">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="38" name="mActivity"/>      
+      <multiplicity id="39" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="40">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="41" name="mActivity"/>      
+      <multiplicity id="42" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="43">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="44" name="mActivity"/>      
+      <multiplicity id="45" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="46">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="47" name="mActivity"/>      
+      <multiplicity id="48" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="49">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="7"/>  
+  </nesting>  
+  <association id="50">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="51" name="fragment3"/>      
+      <multiplicity id="52" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="53">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="54" name="mActivity"/>      
+      <multiplicity id="55" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="56">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="57" name="fileDialog"/>      
+      <multiplicity id="58" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="59">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="8"/>  
+  </nesting>  
+  <nesting id="60">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="5"/>  
+  </nesting>  
+  <association id="61">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="62" name="fragment1"/>      
+      <multiplicity id="63" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="64">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="65" name="fileDialog"/>      
+      <multiplicity id="66" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

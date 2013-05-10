@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_settings"/>
+    <group android:id="@+id/photo_group">
+        <item android:id="@+id/photo_local" android:title="Set Photo folder"></item>
+        <item android:id="@+id/music_local" android:title="Set Music folder"></item>
+    </group>
+
+</menu>
