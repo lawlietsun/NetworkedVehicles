@@ -15,7 +15,7 @@ Cloud(Azure)
 Our GitHub repository contains a copy of the files hosted on the Azure web servers ,at 
 http://networkedvehicles.azurewebsites.net/ , so those files can be tested simply by making POST requests to the cloud. Valid requests are documented in the implementation section for the cloud.
 
-For the database, we have provided a SQL file in the MySQL Database folder that will replicate our database if it was imported on a MySQL server, this database is also hosted on the Azure servers.
+For the database, we have provided a SQL file in the MySQL Database folder that will replicate our database if it is imported on a MySQL server, this database is also hosted on the Azure servers.
 
 Android Applications - FindMyCar & MusicSync
 
