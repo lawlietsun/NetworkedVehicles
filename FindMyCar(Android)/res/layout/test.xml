@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/whereAmI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="60dp"
+        android:text="Where am I?"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0000"
+        android:textSize="40dp"
+        android:typeface="sans"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/whereButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Where Am I?"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/findCar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="40dp"
+        android:text="Find my car?"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0000"
+        android:textSize="40dp"
+        android:typeface="sans" 
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/findButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FindCar?"
+        android:layout_gravity="center" />
+    
+    <TextView
+        android:id="@+id/directMeToCar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="40dp"
+        android:text="Direct me to car?"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0000"
+        android:textSize="40dp"
+        android:typeface="sans" 
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/directMeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Direct me to car?"
+        android:layout_gravity="center" />
+
+</LinearLayout>
