@@ -1,0 +1,1 @@
+<?phpinclude 'databasecon.php'; $addLocQuery = "CALL addLocation(".$_POST["idVehicle"].",".$_POST["latitude"].",".$_POST["longitude"].");";$addLoc = mysqli_query($con,$addLocQuery);mysqli_close($con);echo "Recieved values = " . $_POST["idVehicle"] . "," . $_POST["latitude"].",".$_POST["longitude"];?>

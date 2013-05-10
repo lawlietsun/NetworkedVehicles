@@ -1,0 +1,17 @@
+body{
+background : black;
+position: fixed;
+}
+
+ul,li
+{
+display: inline-block;
+}
+img{
+	width: 105px;
+	height: 120px;
+}
+
+.lowopacity{
+	opacity: 0.3;
+}

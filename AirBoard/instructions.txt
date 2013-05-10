@@ -1,0 +1,13 @@
+To test this locally, the folder must be in the htdocs of some webserver (preferably apache running PHP5). There are a few bugs, but the general structure is shown.
+
+The index page is built by looking through the apps folder and loading each app as an iframe. The width and height is set dynamically (try changing the xSize and ySize values in the manifest file).
+
+The apps order should be draggable (right now only works if you select the border and drag from there. We're working on this). Unfortunately the order is not saved right now, but this should be trivial.
+
+We have provided an online link to view the layout at.
+
+http://networkedvehicles.azurewebsites.net/dashboard/
+
+The view will be different when viewed on a device that is not the Glass (you will be given options to add, customize and control widgets etc.)
+
+The widgets we have provided have little or no functionality at this point. The emphasis is on the structure of the dashboard and the ability to easily add widgets written in HTML5. We will later show how to hook in to the inbuilt functions of the Networked Vehicles framework (how to get car GPS, SMS 3G etc.). But there would be no use showing this here as you will not have the hardware available to test it.
